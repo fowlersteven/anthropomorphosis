@@ -35,7 +35,7 @@ class FreqOut:
         if ticks_diff(ticks_add(timestep_us, self.start), ticks_us()) <= 0:
             pass
             
-class TimeController():
+class TimeController:
     def __init__(self):
         pass
         
